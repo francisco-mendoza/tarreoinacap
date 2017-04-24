@@ -1,15 +1,15 @@
 ## Tarreo Inacap
 
-###Clonar
+### Clonar
 ```
 git clone https://github.com/francisco-mendoza/tarreoinacap.git
 ```
 
-###Composer
+### Composer
 ```
 composer update
 ```
-###Up server
+### Up server
 ```
 php artisan serve
 ```

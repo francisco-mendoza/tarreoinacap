@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Usuario;
 
 class HomeController extends Controller
 {
@@ -17,6 +18,25 @@ class HomeController extends Controller
     }
 
     public function registrar(Request $request){
-        
+
+        //dd($request);
+
+        $respuesta = "";
+        $usuarioExistente = Usuario::getUsuarioByEmail($request->email);
+        if($usuarioExistente){
+            $respuesta = "existe";
+        }else{
+            $user = new Usuario();
+            $user->nombre   = $request->nombre;
+            $user->apellido = $request->apellido;
+            $user->rut      = $request->rut;
+            $user->email    = $request->email;
+            $user->carrera  = $request->carrera;
+
+            $user->save();
+            $respuesta = "registrado";
+        }
+
+        return response()->json($respuesta);
     }
 }

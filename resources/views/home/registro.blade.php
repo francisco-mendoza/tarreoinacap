@@ -26,32 +26,35 @@
                 <div class="youplay-form p-0">
                     <h2 class="mt-0">Llena el siguiente formulario</h2>
 
-                    <form action="http://html.nkdev.info/youplay/dark/php/contact.php" method="POST" role="form" class="youplay-form-ajax" data-toggle="validator">
+                    <div id="errores"></div>
+
+                    <form  method="POST" role="form" class="youplay-form-ajax" data-toggle="validator">
+                        <input type="hidden" name="_token" id="token" value="{{ csrf_token() }}">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="youplay-input form-group">
-                                    <input type="text" name="name" placeholder="Nombre" required>
+                                    <input type="text" id="nombre" name="name" placeholder="Nombre" required>
                                 </div>
                                 <div class="youplay-input form-group">
-                                    <input type="text" name="rut" placeholder="Rut" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="youplay-input form-group">
-                                    <input type="text" name="apellido" placeholder="Apellido" required>
-                                </div>
-                                <div class="youplay-input form-group">
-                                    <input type="email" name="email" placeholder="Inacap Mail" required>
+                                    <input type="text" id="rut" name="rut" placeholder="Rut" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="youplay-input form-group">
-                                    <input type="text" name="carrera" placeholder="Carrera" required>
+                                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                                </div>
+                                <div class="youplay-input form-group">
+                                    <input type="email" name="email" id="email" placeholder="Inacap Mail" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="youplay-input form-group">
+                                    <input type="text" name="carrera" id="carrera" placeholder="Carrera" required>
                                 </div>
 
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-default" id="btnRegistro">Inscribirme</button>
+                        <button type="button" class="btn btn-default" id="btnRegistro">Inscribirme</button>
                     </form>
                 </div>
                 <!-- /Contact Form -->

@@ -42,7 +42,7 @@
 <body>
 
 <!-- Preloader -->
-<div class="page-preloader preloader-wrapp">
+<div class="page-preloader preloader-wrapp" id="cargando">
     <img src="images/logo.png" alt="">
     <div class="preloader"></div>
 </div>
@@ -98,6 +98,7 @@
 <!-- Youplay -->
 <script type="text/javascript" src="youplay/js/youplay.min.js"></script>
 <script type="text/javascript" src="bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
+<script type="text/javascript" src="js/rut.js"></script>
 <script type="text/javascript" src="js/tarreo.js"></script>
 
 <!-- init youplay -->

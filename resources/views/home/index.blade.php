@@ -15,7 +15,7 @@
                 <br>
                 <br>
                 <br>
-                <a class="btn btn-lg" href="#!">Inscríbete ahora !</a>
+                <a class="btn btn-lg" href="/registro">Inscríbete ahora !</a>
             </div>
         </div>
     </div>

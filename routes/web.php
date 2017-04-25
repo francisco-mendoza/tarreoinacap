@@ -16,3 +16,4 @@
 //});
 
 Route::get('/','HomeController@index')->name('home');
+Route::get('/registro','HomeController@registro')->name('registro');

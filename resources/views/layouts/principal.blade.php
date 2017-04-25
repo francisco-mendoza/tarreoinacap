@@ -28,8 +28,11 @@
 
     <link rel="stylesheet" type="text/css" href="youplay/css/youplay.min.css" />
 
+
     <!-- Custom Styles -->
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-sweetalert/lib/sweet-alert.css" />
     <!-- RTL (uncomment this to enable RTL support) -->
     <!-- <link rel="stylesheet" type="text/css" href="../assets/youplay/css/youplay-rtl.css" /> -->
 
@@ -94,6 +97,8 @@
 <script type="text/javascript" src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
 <!-- Youplay -->
 <script type="text/javascript" src="youplay/js/youplay.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
+<script type="text/javascript" src="js/tarreo.js"></script>
 
 <!-- init youplay -->
 <script>

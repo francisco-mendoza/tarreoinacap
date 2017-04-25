@@ -10,4 +10,13 @@ class HomeController extends Controller
 
         return view('home.index');
     }
+
+    public function registro(){
+
+        return view('home.registro');
+    }
+
+    public function registrar(Request $request){
+        
+    }
 }

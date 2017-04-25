@@ -9,9 +9,9 @@
 
                 <div class="social-icons">
                     <div class="social-icon">
-                        <a href="#!">
+                        <a href="https://www.facebook.com/tarreoinacap" target="_blank">
                             <i class="fa fa-facebook-square"></i>
-                            <span>Like on Facebook</span>
+                            <span>Visita nuestro Facebook</span>
                         </a>
                     </div>
                 </div>

@@ -7,6 +7,7 @@
 $( document ).ready(function() {
     var validRut = true;
 
+    //$('#rut').Rut();
     $('#rut').Rut({
         on_error: function(){
             //$('#errorRut').show();
@@ -17,13 +18,7 @@ $( document ).ready(function() {
             // $("#rut").css("border","1px solid #FF3D3D");
             // $("#rut").css("background-color","#FFF");
         },
-        on_success: function(){
-            //$(this).focusOffset();
-            $('#errores').empty();
-            validRut = true;
-            //$('#errores').hide();
-            //$("#rut").();
-        },
+
         format_on: 'keyup'
     });
 

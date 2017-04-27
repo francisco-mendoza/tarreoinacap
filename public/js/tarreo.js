@@ -29,6 +29,9 @@ $( document ).ready(function() {
     });
 
 
+    $(".swal2-confirm").click(function(){
+//	window.location.href = 'http://tarreostgosur.cl';
+    });
 
     $("#btnRegistro").click(function(){
         $('#rut').Rut({
@@ -119,11 +122,13 @@ function registro(nombre,apellido,rut,email,carrera,token,validRut){
             },
             success:  function (response) {
                 if(response == "registrado"){
-                    swal(
-                        'Registrado!',
-                        'Te esperamos en Tarreo Inacap!',
-                        'success'
-                    )
+                    swal({
+                       title: 'Registrado!',
+                        text: 'Te esperamos en Tarreo Inacap!',
+                        type: 'success',
+                   }).then(function(){
+                      window.location.href = 'http://tarreostgosur.cl';
+		   });
                 }else if(response == "existe"){
                     swal(
                         'Usuario Registrado!',
@@ -134,7 +139,6 @@ function registro(nombre,apellido,rut,email,carrera,token,validRut){
 
                 cargando.empty();
                 cargando.fadeOut();
-                window.location.href = 'http://tarreostgosur.cl';
 
             },
             error: function(){

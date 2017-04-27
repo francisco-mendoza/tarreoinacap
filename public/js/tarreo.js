@@ -134,6 +134,7 @@ function registro(nombre,apellido,rut,email,carrera,token,validRut){
 
                 cargando.empty();
                 cargando.fadeOut();
+                window.location.href = 'http://tarreostgosur.cl';
 
             },
             error: function(){

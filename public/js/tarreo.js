@@ -8,7 +8,9 @@ $( document ).ready(function() {
     var validRut = true;
 
     //$('#rut').Rut();
+
     $('#rut').Rut({
+
         on_error: function(){
             //$('#errorRut').show();
             $('#errores').empty();
@@ -18,9 +20,15 @@ $( document ).ready(function() {
             // $("#rut").css("border","1px solid #FF3D3D");
             // $("#rut").css("background-color","#FFF");
         },
+        on_success: function(){
+            $('#errores').empty();
+            validRut = true;
+        },
 
         format_on: 'keyup'
     });
+
+
 
     $("#btnRegistro").click(function(){
         $('#rut').Rut({

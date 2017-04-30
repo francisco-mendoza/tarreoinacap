@@ -137,7 +137,7 @@ function registro(nombre,apellido,rut,email,carrera,token,validRut){
                     )
                 }
 
-                cargando.empty();
+                cargando.empty();//asd
                 cargando.fadeOut();
 
             },

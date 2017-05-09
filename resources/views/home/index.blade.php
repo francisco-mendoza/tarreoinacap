@@ -214,7 +214,7 @@
             También habrá consolas como Nintendo Wii, PS4, Xbox. Si deseas traer la tuya no ha problema, solo tener en cuenta que no se prestarán monitores. Si quieres proponer tu consola para que todos juguemos se puede ver disponibilidad de
             algún proyector o pantallas que estarán destinadas para que todos las usen.
             Si tienen su propio modem o celular para proveerse de internet, ningún problema que lo usen.</li>
-        <li>Que llevar?: Tu PC, ya sea de escritorio o notebook, monitor, teclado, mouse, audífonos, etc. Inacap no prestará ningún perisférico. <br>Se recomienda traer un alargador tipo zapatilla.</li>
+        <li>Que llevar?: Tu PC, ya sea de escritorio o notebook, monitor, teclado, mouse, audífonos, etc. Inacap no prestará ningún periférico. <br>Se recomienda traer un alargador tipo zapatilla.</li>
         <li>Estará <b>PROHIBIDO</b> el consumo de <b>Alcohol</b> y/o <b>Drogas</b></li>
         <li>Todos deben traer su credencial de Inacap</li>
         <li>Inacap nos dará una colación por alumno, pero no está demás que lleven lo suyo.</li>

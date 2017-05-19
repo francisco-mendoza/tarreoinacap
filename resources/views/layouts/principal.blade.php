@@ -36,6 +36,9 @@
     <!-- RTL (uncomment this to enable RTL support) -->
     <!-- <link rel="stylesheet" type="text/css" href="../assets/youplay/css/youplay-rtl.css" /> -->
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/responsive/1.0.0/css/dataTables.responsive.css">
+
 </head>
 
 
@@ -97,9 +100,13 @@
 <script type="text/javascript" src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
 <!-- Youplay -->
 <script type="text/javascript" src="youplay/js/youplay.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.datatables.net/responsive/1.0.0/js/dataTables.responsive.min.js"></script>
 <script type="text/javascript" src="bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
 <script type="text/javascript" src="js/rut.js"></script>
 <script type="text/javascript" src="js/tarreo.js"></script>
+
+
 
 <!-- init youplay -->
 <script>

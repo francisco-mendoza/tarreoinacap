@@ -18,3 +18,5 @@
 Route::get('/','HomeController@index')->name('home');
 Route::get('/registro','HomeController@registro')->name('registro');
 Route::post('/registrar', 'HomeController@registrar');
+Route::get('/participantes','HomeController@participantes');
+Route::get('/getUsers','HomeController@getUsers');

@@ -17,6 +17,10 @@ class HomeController extends Controller
         return view('home.registro');
     }
 
+    public function participantes(){
+        return view('home.inscritos');
+    }
+
     public function registrar(Request $request){
 
         //dd($request);
@@ -39,4 +43,12 @@ class HomeController extends Controller
 
         return response()->json($respuesta);
     }
+
+    public function getUsers(){
+        
+        $usuarios = Usuario::all();
+
+        return response()->json(["data"=>$usuarios]);
+    
+    }    
 }

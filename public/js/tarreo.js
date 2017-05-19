@@ -57,6 +57,37 @@ $( document ).ready(function() {
         registro(nombre,apellido,rut,email,carrera,token,validRut);
     });
 
+
+    var table = $('#tblParticipantes').DataTable( {
+        "ajax": '/getUsers',
+        "columns": [
+            { "data": "nombre" },
+            { "data": "apellido" },
+            { "data": "carrera" },
+        ],
+        "columnDefs": [
+           
+           
+            
+        ],
+        "language": {
+            "lengthMenu": "Viendo _MENU_ participantes por página",
+            "zeroRecords": "Cargando participantes...",
+            "info": "Página _PAGE_ de _PAGES_ con un total de _TOTAL_ participantes",
+            "infoEmpty": "Nada disponible",
+            "infoFiltered": "(filtered from _MAX_ total records)",
+            "search": "Buscar Participante:",
+            "paginate":{
+                "previous": "Página anterior",
+                "next":"Página siguiente"
+            }
+            
+            
+        }
+    } );
+   
+
+
 });
 
 function registro(nombre,apellido,rut,email,carrera,token,validRut){
